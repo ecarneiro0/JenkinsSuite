@@ -8,6 +8,6 @@ node {
          
         //Ejecutar el testRunner de SoapUI sobre el XML que se encuentra en el proyecto de Jenkins.
         //Se puede poner solamente el nombre del XML porque Jenkins por defecto se encuentra en el lugar donde este archivo será pulleado, si ha sido enviado a otra dirección se debe poner la ruta correspondiente
-        bat "C:\\Otrosprogramas\\SmartBear\\SoapUI-5.7.0\\bin\\testrunner.bat -sTestSuite testJenkins-soapui-project.xml"
+        bat "C:\\Otrosprogramas\\SmartBear\\SoapUI-5.7.0\\bin\\testrunner.bat -sTestSuite Test-soapui-project.xml"
     }
 }
